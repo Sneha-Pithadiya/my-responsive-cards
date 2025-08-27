@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #F8FAFC;
+}
+.card{
+   max-width: 500px;
+   width: 90%;
+    border: 2px solid #E2E8F0;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+}
+.card-body{
+    display: flex;
+    font-size: smaller;
+    color:#1E293B;
+    gap: 20;
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    
+}
+.card-body h3{
+    color:#3B82F6;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-left{
+    align-items: center;
+    text-align: center;
+}
+.card-img{
+    image-orientation: from-image;
+    width: 75px;
+    border: 2px solid #E2E8F0;
+    border-radius: 50%;
+    height: 75px;
+    object-fit: cover;
+}
+
+
+.card-right{
+    padding-left: 15px;
+}
+
+@media(max-width: 608px){
+.card-body{
+    flex-direction: column;
+    align-items: center;
+}
+
+}
