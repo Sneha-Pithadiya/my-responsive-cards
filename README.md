@@ -30,3 +30,14 @@ Open index.html in your browser.
 🤝 Contributing
 
 Feel free to fork this repo and improve the design. Pull requests are welcome!
+
+
+🔍 SEO Notes
+This project is designed for **students, beginners, and web developers** who are looking for:
+- Free **HTML CSS projects** with source code  
+- Simple and responsive **frontend projects**  
+- **Beginner-friendly web development tutorials**  
+- Projects using **Flexbox and Media Queries**  
+
+If you are learning HTML and CSS, this project will help you practice **responsive design** and **modern layouts**.
+
